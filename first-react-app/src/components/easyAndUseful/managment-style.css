@@ -1,0 +1,142 @@
+.textManagement{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.easyAndUseful{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ManagementTitle{
+    font-size: 45px;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+}
+
+.projectManagementTools{
+    font-size: 1.667em;
+    color: gray;
+    position: relative;
+    bottom: 20px;
+}
+
+.ManagementText{
+    text-align: center;
+    font-size: 1em;
+    color: gray;
+    position: relative;
+    bottom: 20px;
+}
+
+.calendar,.man,.health{
+    width: 100px;
+    height: 100px;
+    color: green;
+}
+
+.titleCard1,.titleCard3{
+    font-size: 2em;
+    font-weight: 600;
+    font-family: "icofont";
+}
+
+.containerImgManagement{
+    margin: 5% 4% 5% 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.managementCard1,.managementCard3{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textCard1{
+    text-align: center;
+    color: gray;
+    font-size: 1em;
+    font-family: "icofont", sans-serif;
+    position: relative;
+    bottom: 8%;
+}
+
+.btnStart{
+    position: relative;
+    bottom: 8%;
+    background-color: black;
+    border-radius: 3px;
+    border-style: none;
+    color: aqua;
+    font-size: 1.333em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 3%;
+}
+
+.FooterManagement{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: #380101;
+}
+
+.footerCard1,.footerCard2,.footerCard3,.footerCard4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    background-color: #5fa3be;
+}
+
+.footerCard2{
+    background-color: rgb(130, 177, 255);
+}
+
+.footerCard3{
+    background-color: rgb(179, 136, 255)
+}
+
+.footerCard4{
+    background-color: rgb(234, 128, 252)
+}
+
+.svgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 100px;
+    margin-right: 35px;
+}
+
+.circle {
+    margin-top: 50px;
+}
+
+
+
+.Tower,.user{
+    position: relative;
+    bottom: 71px;
+    width: 50px;
+    height: 50px;
+}
+
+.footerManagementText {
+    position: relative;
+    font-size: 1.333em;
+    right: 10%;
+    color: white;
+    font-weight: 600;
+    font-family: "icofont", cursive;
+    margin-left: 3%;
+}

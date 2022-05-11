@@ -1,0 +1,31 @@
+
+.Service{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ServicesText{
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleService{
+    font-size: 45px;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+}
+
+.textService{
+    text-align: center;
+    font-size: 1em;
+    color: gray;
+    position: relative;
+    bottom: 20px;
+}

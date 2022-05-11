@@ -1,0 +1,19 @@
+
+.btn{
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.p{
+    margin-left: 10px;
+}
+
+.green {
+    color: green;
+}

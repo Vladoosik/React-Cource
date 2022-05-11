@@ -1,0 +1,152 @@
+.header{
+    width: auto;
+    height: 800px;
+    background-image: url("../../assets/image/Color Fill 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: transparent;
+    width: auto;
+}
+
+.btn1 {
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.btn1:hover{
+    color: #000000;
+}
+
+.headerBtn {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.headerLogo{
+    width: 25%;
+    align-items: center;
+    margin-left: 3%;
+    display: flex;
+}
+
+.headerSign{
+    display: flex;
+    justify-content: end;
+    margin-right: 3%;
+    width: 25%;
+}
+.logoImg{
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+}
+.btnSignIn{
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    padding: 8px 15px;
+    border-style: solid;
+    border-color: white;
+}
+
+.btnSignIn:hover{
+    color: gray;
+    border-color: gray;
+}
+
+.logoP{
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.mainHeader {
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockHeadText{
+    width: 35%;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.HeaderTitle{
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.HeaderText{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btnBuy {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    font-size: 1em;
+    padding: 15px 20px 15px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btnFree{
+    margin-top: 5px;
+    margin-left: 50px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    border-radius: 2px;
+    font-size: 1em;
+    padding: 15px 20px 15px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.video {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 3%;
+    border-style: groove;
+    border-width: 1px;
+    border-color: black;
+}
+
+.player {
+    background-color: black;
+    border-style: none;
+    color: white;
+    padding: 10px 12px;
+}
+
+.playerText{
+    font-weight: 600;
+  font-size: 18px;
+}
