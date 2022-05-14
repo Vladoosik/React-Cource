@@ -1,7 +1,9 @@
-import ManSvg from "../assets/svg/man";
-import CalendarSvg from "../assets/svg/calendar";
-import HealthSvg from "../assets/svg/health";
+import circle from "../assets/svg/circle";
+import Tower from "../assets/svg/Tower";
+import Download from "../assets/svg/download";
+import User from "../assets/svg/user";
 
-export const Man = ManSvg;
-export const Calendar = CalendarSvg;
-export const Health = HealthSvg;
+export const CircleSvg = circle;
+export const TowerSvg = Tower;
+export const DownloadSvg = Download;
+export const UserSvg = User;
