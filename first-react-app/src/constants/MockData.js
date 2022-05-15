@@ -6,6 +6,10 @@ import Download from "../assets/svg/download";
 import User from "../assets/svg/user";
 import customer1 from "../assets/image/customer1.png";
 import customer2 from "../assets/image/customer2.png";
+import member1 from "../assets/image/memberTeam1.png";
+import member2 from "../assets/image/memberTeam2.png";
+import member3 from "../assets/image/memberTeam3.png";
+import member4 from "../assets/image/memberTeam4.png";
 
 export const loremM =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laborum quas quo sed. Aliquid ducimus earum explicabo facilis ipsa molestiae mollitia placeat, reiciendis temporibus ullam!";
@@ -29,6 +33,8 @@ export const playerText = "Watch the video";
 export const TitleCard = "Title Goes Here";
 export const clientText =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias aliquam, aspernatur at dolorem ex fuga fugiat ipsam ipsum iure maiores molestiae nihil placeat totam veritatis voluptatem voluptates? Cum doloremque, eos in nemo nihil nobis odio quo quos rerum? Aliquid distinctio enim incidunt modi officia porro repellendus repudiandae sit temporibus?\n";
+export const memberText =
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut deleniti ea exercitationem facilis fuga, illo magnam nobis, perspiciatis placeat praesentium quas quidem rem sed.";
 
 const business = "12000+";
 const lowerBusiness = "Business";
@@ -115,4 +121,11 @@ export const arrayFooterSvg = [
 export const arrayClients = [
   { name: "John Doe", image: customer1 },
   { name: "Khaleesi", image: customer2 },
+];
+
+export const arrayTeam = [
+  { name: "Sophie Turner", img: member1 },
+  { name: "Elvis Brown", img: member2 },
+  { name: "Donald Johnson", img: member3 },
+  { name: "Cristian Bail", img: member4 },
 ];
