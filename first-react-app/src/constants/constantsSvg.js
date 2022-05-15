@@ -6,10 +6,14 @@ import TwitterSvg from "../assets/svg/twitterSvg";
 import InstagramSvg from "../assets/svg/instagramSvg";
 
 export const CircleSvg = circle;
-// export const Facebook = FacebookSvg;
-// export const Github = <GithubSvg height={30} width={30} color={"black"} />;
-// export const Linkedin = LinkedinSvg;
-// export const Twitter = TwitterSvg;
-// export const Instagram = InstagramSvg;
+export const Facebook = (
+  <FacebookSvg height={30} width={30} color={"black"} color2={"transparent"} />
+);
+export const Github = <GithubSvg height={30} width={30} color={"black"} />;
+export const Linkedin = <LinkedinSvg height={30} width={30} color={"black"} />;
+export const Twitter = <TwitterSvg height={30} width={30} color={"black"} />;
+export const Instagram = (
+  <InstagramSvg height={30} width={30} color={"black"} />
+);
 
 const someone = "oleg";

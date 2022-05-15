@@ -10,6 +10,7 @@ import member1 from "../assets/image/memberTeam1.png";
 import member2 from "../assets/image/memberTeam2.png";
 import member3 from "../assets/image/memberTeam3.png";
 import member4 from "../assets/image/memberTeam4.png";
+import { Facebook, Github, Instagram, Linkedin, Twitter } from "./constantsSvg";
 
 export const loremM =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laborum quas quo sed. Aliquid ducimus earum explicabo facilis ipsa molestiae mollitia placeat, reiciendis temporibus ullam!";
@@ -120,12 +121,55 @@ export const arrayFooterSvg = [
 
 export const arrayClients = [
   { name: "John Doe", image: customer1 },
-  { name: "Khaleesi", image: customer2 },
+  {
+    name: "Khaleesi",
+    image: customer2,
+  },
 ];
 
 export const arrayTeam = [
-  { name: "Sophie Turner", img: member1 },
-  { name: "Elvis Brown", img: member2 },
-  { name: "Donald Johnson", img: member3 },
-  { name: "Cristian Bail", img: member4 },
+  {
+    name: "Sophie Turner",
+    img: member1,
+    social: {
+      facebook: Facebook,
+      github: Github,
+      linkedin: Linkedin,
+      instagram: Instagram,
+      twitter: Twitter,
+    },
+  },
+  {
+    name: "Elvis Brown",
+    img: member2,
+    social: {
+      facebook: Facebook,
+      github: Github,
+      linkedin: Linkedin,
+      instagram: Instagram,
+      twitter: Twitter,
+    },
+  },
+  {
+    name: "Donald Johnson",
+    img: member3,
+    social: {
+      facebook: Facebook,
+      github: Github,
+      linkedin: Linkedin,
+      instagram: Instagram,
+      twitter: Twitter,
+    },
+  },
+  {
+    name: "Cristian Bail",
+    img: member4,
+    social: {
+      facebook: Facebook,
+      github: Github,
+      linkedin: Linkedin,
+      instagram: Instagram,
+      twitter: Twitter,
+    },
+  },
 ];
