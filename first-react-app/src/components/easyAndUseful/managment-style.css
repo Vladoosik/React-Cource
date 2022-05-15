@@ -10,6 +10,8 @@
     align-items: center;
 }
 
+
+
 .ManagementTitle{
     font-size: 45px;
     font-family: "Raleway", serif;
@@ -93,7 +95,6 @@
     justify-content: center;
     height: 100%;
     width: 25%;
-    background-color: #5fa3be;
 }
 
 .footerCard2{

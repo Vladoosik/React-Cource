@@ -1,17 +1,12 @@
-import {
-  ManagementCardCalendar,
-  ManagementCardHealth,
-  ManagementCardMan,
-} from "./mangmentCard";
+import { ManagementCards } from "./mangmentCard";
+import { arraySvg } from "../../../constants/MockData";
 
-function ContainerImgManagement(props) {
-  const { text, width, height } = props;
-
+function ContainerImgManagement() {
   return (
     <div className={"containerImgManagement"}>
-      <ManagementCardCalendar text={text} width={width} height={height} />
-      <ManagementCardMan text={text} width={width} height={height} />
-      <ManagementCardHealth text={text} width={width} height={height} />
+      {arraySvg.map((item, id) => {
+        return <ManagementCards key={id} svg={item.svg} text={item.text} />;
+      })}
     </div>
   );
 }

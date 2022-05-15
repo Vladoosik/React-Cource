@@ -1,0 +1,81 @@
+.clients{
+    background-image: url("../../assets/image/background Service.png");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clientTextContainer{
+    margin-left: 3%;
+}
+
+.ClientTitle{
+    font-size: 3.333em;
+    font-weight: 600;
+    color: white;
+    font-family: "Times New Roman", serif;
+}
+
+.ClientText {
+    font-weight: 600;
+    color: white;
+    font-family: "Times New Roman", serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.btnClient{
+    background-color: black;
+    padding: 15px 20px 15px 20px;
+    font-size: 1em;
+    color: white;
+    border-style: none;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.clientReviews{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.photoCustomer{
+    width: 76px;
+    height: 76px;
+    margin-right: 5%;
+}
+
+.customerName{
+    font-size: 1.667em;
+    font-weight: 550;
+    margin-left: 3%;
+}
+.textReview{
+    margin-left: 3%;
+    margin-right: 3%;
+    color: gray;
+}
+
+.review{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.reviewInfo {
+    margin-top: 5%;
+    height: 200px;
+    max-width: 50%;
+    background-color: white;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
