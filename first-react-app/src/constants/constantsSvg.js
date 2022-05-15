@@ -11,3 +11,5 @@ export const CircleSvg = circle;
 // export const Linkedin = LinkedinSvg;
 // export const Twitter = TwitterSvg;
 // export const Instagram = InstagramSvg;
+
+const someone = "oleg";
