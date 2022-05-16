@@ -1,7 +1,7 @@
 import "./clients-style.css";
 import ClientText from "./ClientText";
 import { ClientReviews } from "./clientReview";
-import { arrayClients } from "../../constants/MockData";
+import { arrayClients } from "../../api/arrayClients";
 
 function Clients() {
   return (
