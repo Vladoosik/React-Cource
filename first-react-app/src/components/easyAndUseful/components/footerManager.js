@@ -1,5 +1,5 @@
 import { FooterCardContainer } from "./footerCards";
-import { arrayFooterSvg } from "../../../constants/MockData";
+import { arrayFooterSvg } from "../../../api/arrayFooterSvg";
 
 function FooterManager() {
   return (

@@ -1,5 +1,5 @@
 import { ManagementCards } from "./mangmentCard";
-import { arraySvg } from "../../../constants/MockData";
+import { arraySvg } from "../../../api/arraySvg";
 
 function ContainerImgManagement() {
   return (
