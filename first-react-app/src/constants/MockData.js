@@ -131,45 +131,21 @@ export const arrayTeam = [
   {
     name: "Sophie Turner",
     img: member1,
-    social: {
-      facebook: Facebook,
-      github: Github,
-      linkedin: Linkedin,
-      instagram: Instagram,
-      twitter: Twitter,
-    },
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
   },
   {
     name: "Elvis Brown",
     img: member2,
-    social: {
-      facebook: Facebook,
-      github: Github,
-      linkedin: Linkedin,
-      instagram: Instagram,
-      twitter: Twitter,
-    },
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
   },
   {
     name: "Donald Johnson",
     img: member3,
-    social: {
-      facebook: Facebook,
-      github: Github,
-      linkedin: Linkedin,
-      instagram: Instagram,
-      twitter: Twitter,
-    },
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
   },
   {
     name: "Cristian Bail",
     img: member4,
-    social: {
-      facebook: Facebook,
-      github: Github,
-      linkedin: Linkedin,
-      instagram: Instagram,
-      twitter: Twitter,
-    },
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
   },
 ];
