@@ -2,25 +2,27 @@ import "./team-style.css";
 import TeamTextContainer from "./components/teamTextContainer";
 import { Members } from "./components/members";
 import { arrayTeam } from "../../constants/MockData";
-import { logDOM } from "@testing-library/react";
+import { useEffect, useState } from "react";
 
 function OurTeam() {
+  const [state, setState] = useState([]);
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    setData(arrayTeam);
+  }, [data]);
+
   return (
     <div className={"ourTeam"}>
       <TeamTextContainer />
       <div className={"teamMembers"}>
-        {arrayTeam.map((item, id) => {
-          const getDataFromArray = () => {
-            for (let i = 0; i < item.social.length; i++) {
-              console.log(i);
-            }
-          };
+        {data.map((item, index) => {
           return (
             <Members
-              key={id}
+              key={index}
               name={item.name}
               img={item.img}
-              social={getDataFromArray()}
+              social={item.social}
             />
           );
         })}
