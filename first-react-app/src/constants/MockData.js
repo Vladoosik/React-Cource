@@ -26,4 +26,26 @@ export const memberText =
 
 
 
+export const arrayTeam = [
+  {
+    name: "Sophie Turner",
+    img: member1,
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
+  },
+  {
+    name: "Elvis Brown",
+    img: member2,
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
+  },
+  {
+    name: "Donald Johnson",
+    img: member3,
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
+  },
+  {
+    name: "Cristian Bail",
+    img: member4,
+    social: [Facebook, Github, Linkedin, Instagram, Twitter],
+  },
+];
 
