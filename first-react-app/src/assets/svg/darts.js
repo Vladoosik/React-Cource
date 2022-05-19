@@ -10,6 +10,7 @@ function DartsSvg(props) {
       xmlSpace="preserve"
       width={width}
       height={height}
+      className={"darts"}
     >
       <path
         fill={color}

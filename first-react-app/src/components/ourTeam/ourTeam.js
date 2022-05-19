@@ -1,11 +1,11 @@
 import "./team-style.css";
 import TeamTextContainer from "./components/teamTextContainer";
 import { Members } from "./components/members";
-import { arrayTeam } from "../../constants/MockData";
+import {arrayTeam} from "../../API/arrayTeam";
 import { useEffect, useState } from "react";
 
+
 function OurTeam() {
-  const [state, setState] = useState([]);
   const [data, setData] = useState([]);
 
   useEffect(() => {
