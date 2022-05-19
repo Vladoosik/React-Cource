@@ -15,5 +15,3 @@ export const Twitter = <TwitterSvg height={30} width={30} color={"black"} />;
 export const Instagram = (
   <InstagramSvg height={30} width={30} color={"black"} />
 );
-
-const someone = "oleg";

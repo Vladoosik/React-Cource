@@ -1,8 +1,7 @@
 import "./team-style.css";
 import TeamTextContainer from "./components/teamTextContainer";
 import { Members } from "./components/members";
-import { arrayTeam } from "../../constants/MockData";
-import { logDOM } from "@testing-library/react";
+import {arrayTeam} from "../../API/arrayTeam";
 
 function OurTeam() {
   return (
@@ -10,18 +9,13 @@ function OurTeam() {
       <TeamTextContainer />
       <div className={"teamMembers"}>
         {arrayTeam.map((item, id) => {
-          const getDataFromArray = () => {
-            for (let i = 0; i < item.social.length; i++) {
-              console.log(i);
-            }
-          };
           return (
-            <Members
-              key={id}
-              name={item.name}
-              img={item.img}
-              social={getDataFromArray()}
-            />
+              <Members
+                  key={id}
+                  name={item.name}
+                  img={item.img}
+                  social={item.social}
+              />
           );
         })}
       </div>
