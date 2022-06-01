@@ -44,21 +44,20 @@ function RouteScreen() {
     <>
       <Routes>
         <Route
-          path={"/"}
           element={
             <HeaderComponent
               data={ArrayBtn}
               width={120}
               height={120}
-              color={"white"}
+              color={"black"}
             />
           }
         >
-          <Route path={"/"} element={<MainPage />} />
-          <Route path={"films"} element={<Films value={value} />} />
-          <Route path={"planets"} element={<Planets />} />
-          <Route path={"starcars"} element={<StarCars />} />
-          <Route path={"peoples"} element={<Peoples />} />
+          <Route exact path={"/"} element={<MainPage />} />
+          <Route path={"/films"} element={<Films value={value} />} />
+          <Route path={"/planets"} element={<Planets />} />
+          <Route path={"/starcars"} element={<StarCars />} />
+          <Route path={"/peoples"} element={<Peoples />} />
         </Route>
       </Routes>
     </>

@@ -6,7 +6,7 @@ export const ArrayBtn = [
 ];
 
 export const ArrayFilmBtn = [
-  { name: "Back", path: -1 },
+  { name: "Back", path: '/' },
   { name: "Star cars", path: "starcars" },
   { name: "Planets", path: "planets" },
   { name: "Peoples", path: "peoples" },
@@ -14,7 +14,7 @@ export const ArrayFilmBtn = [
 
 export const ArrayStarCarsBtn = [
   { name: "Films", path: "films" },
-  { name: "back", path: -1 },
+  { name: "back", path: '/' },
   { name: "Planets", path: "planets" },
   { name: "Peoples", path: "peoples" },
 ];
