@@ -7,19 +7,8 @@ import { ArrayBtn } from "../../constants/MockData";
 import { useState } from "react";
 
 function MainPage() {
-  const [show, setShow] = useState(false);
   return (
     <Body>
-      {/*<HeaderComponent*/}
-      {/*  data={ArrayBtn}*/}
-      {/*  onClick={() => {*/}
-      {/*    console.log("I love Big Dick");*/}
-      {/*  }}*/}
-      {/*  show={show}*/}
-      {/*  width={120}*/}
-      {/*  height={120}*/}
-      {/*  color={"white"}*/}
-      {/*/>*/}
       <MainTextComponent />
       <CircleTextComponent />
     </Body>
