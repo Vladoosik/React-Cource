@@ -77,7 +77,6 @@ function RouteScreen() {
               width={120}
               height={120}
               color={"white"}
-              onClick={fetchPage()}
             />
           }
         >
@@ -86,6 +85,7 @@ function RouteScreen() {
           <Route path={"/starships"} element={<StarCars value={value} />} />
           <Route path={"/planets"} element={<Planets value={value} />} />
           <Route path={"/peoples"} element={<Peoples value={value} />} />
+
         </Route>
       </Routes>
     </>
