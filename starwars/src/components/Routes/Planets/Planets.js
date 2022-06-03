@@ -1,8 +1,13 @@
-function Planets() {
+import { Planet } from "./style";
+
+function Planets({ value }) {
   return (
-    <div>
+    <Planet>
       <h1>HELLO PLANETS</h1>
-    </div>
+      {value.map((item) => {
+        return <p>{item.name}</p>;
+      })}
+    </Planet>
   );
 }
 

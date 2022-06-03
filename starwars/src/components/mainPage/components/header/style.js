@@ -7,7 +7,6 @@ export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: transparent;
 `;
 
 export const BtnContainer = styled.div`

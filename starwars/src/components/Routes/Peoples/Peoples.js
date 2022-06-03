@@ -1,8 +1,13 @@
-function Peoples() {
+import { People } from "./style";
+
+function Peoples({ value }) {
   return (
-    <div>
+    <People>
       <h1>HELLO PEOPLES</h1>
-    </div>
+      {value.map((item) => {
+        return <p>{item.name}</p>;
+      })}
+    </People>
   );
 }
 

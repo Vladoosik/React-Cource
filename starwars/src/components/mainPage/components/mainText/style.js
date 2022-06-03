@@ -6,7 +6,7 @@ export const MainTitle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3%;
+  padding-top: 12%;
 
   & span:nth-child(2) {
     color: white;
@@ -35,7 +35,7 @@ export const MainTitle = styled.div`
 `;
 
 export const MainRelease = styled.div`
-  margin-top: 5%;
+  padding-top: 7%;
   margin-left: 8%;
   width: 45%;
   display: flex;
