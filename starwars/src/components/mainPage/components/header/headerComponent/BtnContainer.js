@@ -14,12 +14,14 @@ function BtnParents(props) {
       {data.map((item) => {
         return (
           <HeaderBtn>
-            <StyledLink to={item.path}>{item.name}</StyledLink>
+            <StyledLink to={item.path} onClick={onCLick}>
+              {item.name}
+            </StyledLink>
           </HeaderBtn>
         );
       })}
       <SearchContainer>
-        <HeaderBtn onClick={onCLick}>
+        <HeaderBtn>
           {show && <SearchInput type={"search"} placeholder={"search"} />}
           <SearchSvg width={16} height={16} color={"gray"} />
         </HeaderBtn>

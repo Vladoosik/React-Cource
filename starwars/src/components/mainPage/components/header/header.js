@@ -7,6 +7,10 @@ import BtnParents from "./headerComponent/BtnContainer";
 import { Header } from "./style";
 import StarWarsSvg from "../../../../assets/svg/starwars";
 
+import BtnParents from "./headerComponent/BtnContainer";
+import { Link, Outlet } from "react-router-dom";
+import "./HeaderStyle.css";
+
 function HeaderComponent(props) {
   const { data, onCLick, show, width, height, color } = props;
   return (
@@ -14,6 +18,8 @@ function HeaderComponent(props) {
       <header>
         <Header>
           <Link to={"/"}>
+
+            <StarWarsSvg width={width} height={height} color={color} />
             <StarWarsSvg
               width={width}
               height={height}

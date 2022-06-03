@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const CircleTextContainer = styled.div`
   display: flex;
   color: #ababab;
+  align-items: center;
   justify-content: end;
-  margin-top: 1em;
+  height: 28.3vh;
   margin-right: 2em;
   font-size: 1.2em;
 `;
