@@ -61,6 +61,7 @@ function RouteScreen() {
             path={"/peoples"}
             element={<Peoples value={data["people"]} />}
           />
+
         </Route>
       </Routes>
     </>

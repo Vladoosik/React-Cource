@@ -7,6 +7,7 @@ export const ArrayBtn = [
   { name: "Peoples", path: "peoples" },
 ];
 
+
 export const FilmsPhoto = [
   {
     uri: "https://upload.wikimedia.org/wikipedia/ru/8/87/StarWarsMoviePoster1977.jpg",
