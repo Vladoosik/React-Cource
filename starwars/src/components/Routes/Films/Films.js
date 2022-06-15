@@ -1,8 +1,39 @@
 import "../../../assets/img/mainBackground.png";
 import "./style.css";
 import { Film } from "./style";
+import Loader from "../../../assets/loader/Loader";
+import { useState } from "react";
+import { useEffect } from "react";
+import { FilmsPhoto } from "../../../constants/MockData";
 
 function Films({ value }) {
+  let [values, setValues] = useState([]);
+  let [film, setFilm] = useState([]);
+
+  useEffect(() => {
+    const addPics = FilmsPhoto.map((e) => e);
+    setFilm(addPics);
+  }, []);
+
+  const completeTodo = async () => {
+    const arr = [];
+    for (let key in value) {
+      for (let i = 0; i < value.length; i++) {
+        arr[i] = await value[i];
+        await Object.assign(value[key], film[key]);
+      }
+    }
+    return arr;
+  };
+
+  useEffect(() => {
+    completeTodo().then((p) => setValues(p));
+  }, [value]);
+
+  if (!value) {
+    return <Loader />;
+  }
+
   return (
     <Film>
       <div className={"todoFilms"}>
