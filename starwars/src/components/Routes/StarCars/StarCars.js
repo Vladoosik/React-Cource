@@ -13,6 +13,12 @@ function StarCars({ value }) {
     setFilm(addPics);
   }, []);
 
+  // let arr = [1, 1, 2, 2, 4, 3, 5, 6, 7];
+  //
+  // let data = new Set(arr);
+  //
+  // console.log(data);
+
   const completeTodo = async () => {
     const arr = [];
     for (let key in value) {
